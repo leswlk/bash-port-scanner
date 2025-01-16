@@ -4,7 +4,7 @@ This script scans a range of IP addresses and reports the IP addresses that have
 
 ## Usage
 
-./port_scanner.sh <start_ip> <end_ip> <port>
+./bash_port_scanner.sh <start_ip> <end_ip> <port>
 
 Arguments:
 
@@ -13,7 +13,7 @@ Arguments:
 - port: The port number to check for open ports.
 
 Example:
-./port_scanner.sh 192.168.1.1 192.168.1.100 80
+./bash_port_scanner.sh 192.168.1.1 192.168.1.100 80
 
 This will scan IP addresses from 192.168.1.1 to 192.168.1.100 and report back the IP addresses that have port 80 open.
 
@@ -25,4 +25,4 @@ This will scan IP addresses from 192.168.1.1 to 192.168.1.100 and report back th
 
 ## Note
 
-This script is a simple example and may not handle all edge cases or complex network configurations. In a production environment, you would want to add more robust error handling, logging, and performance optimization.
+This script is a simple example and may not handle all edge cases or complex network configurations. I plan to add more robust error handling, logging, and performance optmization in the future!
